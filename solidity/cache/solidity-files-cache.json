@@ -1,0 +1,538 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/hiroism007/Programming/ethereum/0xdx.art/solidity/contracts/Artifact.sol": {
+      "lastModificationDate": 1611127685820,
+      "contentHash": "ec9157448596e7a7a604446428feac2a",
+      "sourceName": "contracts/Artifact.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/contracts/token/ERC721/ERC721.sol",
+        "@openzeppelin/contracts/contracts/utils/Counters.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "0.8.0"
+      ],
+      "artifacts": [
+        "Artifact"
+      ]
+    },
+    "/Users/hiroism007/Programming/ethereum/0xdx.art/solidity/node_modules/@openzeppelin/contracts/contracts/token/ERC721/ERC721.sol": {
+      "lastModificationDate": 1610868969190,
+      "contentHash": "3fb9bc373bc70c226bdf9b3bcd9b1040",
+      "sourceName": "@openzeppelin/contracts/contracts/token/ERC721/ERC721.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../GSN/Context.sol",
+        "./IERC721.sol",
+        "./IERC721Metadata.sol",
+        "./IERC721Enumerable.sol",
+        "./IERC721Receiver.sol",
+        "../../introspection/ERC165.sol",
+        "../../utils/Address.sol",
+        "../../utils/EnumerableSet.sol",
+        "../../utils/EnumerableMap.sol",
+        "../../utils/Strings.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "/Users/hiroism007/Programming/ethereum/0xdx.art/solidity/node_modules/@openzeppelin/contracts/contracts/GSN/Context.sol": {
+      "lastModificationDate": 1610868969186,
+      "contentHash": "b223fee15d62dfbcaa1269d173c3e212",
+      "sourceName": "@openzeppelin/contracts/contracts/GSN/Context.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/hiroism007/Programming/ethereum/0xdx.art/solidity/node_modules/@openzeppelin/contracts/contracts/token/ERC721/IERC721.sol": {
+      "lastModificationDate": 1610868969191,
+      "contentHash": "169a2dca27311d2d8c171b97bd592a49",
+      "sourceName": "@openzeppelin/contracts/contracts/token/ERC721/IERC721.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721"
+      ]
+    },
+    "/Users/hiroism007/Programming/ethereum/0xdx.art/solidity/node_modules/@openzeppelin/contracts/contracts/token/ERC721/IERC721Metadata.sol": {
+      "lastModificationDate": 1610868969192,
+      "contentHash": "6a9220a67c5fd3bb7d4dcedcd01f9dcc",
+      "sourceName": "@openzeppelin/contracts/contracts/token/ERC721/IERC721Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Metadata"
+      ]
+    },
+    "/Users/hiroism007/Programming/ethereum/0xdx.art/solidity/node_modules/@openzeppelin/contracts/contracts/token/ERC721/IERC721Enumerable.sol": {
+      "lastModificationDate": 1610868969192,
+      "contentHash": "f24460c6c08657cac5fbefc1f1d68682",
+      "sourceName": "@openzeppelin/contracts/contracts/token/ERC721/IERC721Enumerable.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Enumerable"
+      ]
+    },
+    "/Users/hiroism007/Programming/ethereum/0xdx.art/solidity/node_modules/@openzeppelin/contracts/contracts/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1610868969192,
+      "contentHash": "e6d69a0b5b95ac1112eb4746a2d66f3e",
+      "sourceName": "@openzeppelin/contracts/contracts/token/ERC721/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "/Users/hiroism007/Programming/ethereum/0xdx.art/solidity/node_modules/@openzeppelin/contracts/contracts/introspection/ERC165.sol": {
+      "lastModificationDate": 1610868969189,
+      "contentHash": "bb01fc67019aa38e659a4108c032a21f",
+      "sourceName": "@openzeppelin/contracts/contracts/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "/Users/hiroism007/Programming/ethereum/0xdx.art/solidity/node_modules/@openzeppelin/contracts/contracts/utils/Address.sol": {
+      "lastModificationDate": 1610868969185,
+      "contentHash": "0123ac8d25e20c59c16a99a28b527c20",
+      "sourceName": "@openzeppelin/contracts/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/hiroism007/Programming/ethereum/0xdx.art/solidity/node_modules/@openzeppelin/contracts/contracts/utils/EnumerableSet.sol": {
+      "lastModificationDate": 1610868969186,
+      "contentHash": "a0acec6ee83f09c4fedac2e7083dd29f",
+      "sourceName": "@openzeppelin/contracts/contracts/utils/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableSet"
+      ]
+    },
+    "/Users/hiroism007/Programming/ethereum/0xdx.art/solidity/node_modules/@openzeppelin/contracts/contracts/utils/EnumerableMap.sol": {
+      "lastModificationDate": 1610868969186,
+      "contentHash": "09acdb688a6abdf19d5db65fbb10e715",
+      "sourceName": "@openzeppelin/contracts/contracts/utils/EnumerableMap.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableMap"
+      ]
+    },
+    "/Users/hiroism007/Programming/ethereum/0xdx.art/solidity/node_modules/@openzeppelin/contracts/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1610868969193,
+      "contentHash": "97a0b9b20fc4ae6eb87e2735bb59451e",
+      "sourceName": "@openzeppelin/contracts/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "/Users/hiroism007/Programming/ethereum/0xdx.art/solidity/node_modules/@openzeppelin/contracts/contracts/introspection/IERC165.sol": {
+      "lastModificationDate": 1610868969191,
+      "contentHash": "9a04322bb8f6b8f2767d8358d1d2537b",
+      "sourceName": "@openzeppelin/contracts/contracts/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/hiroism007/Programming/ethereum/0xdx.art/solidity/node_modules/@openzeppelin/contracts/contracts/utils/Counters.sol": {
+      "lastModificationDate": 1610868969186,
+      "contentHash": "f60f40534fe3dc3a3f9353a5159bdad7",
+      "sourceName": "@openzeppelin/contracts/contracts/utils/Counters.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Counters"
+      ]
+    },
+    "/Users/hiroism007/Programming/ethereum/0xdx.art/solidity/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1610868383819,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    }
+  }
+}
