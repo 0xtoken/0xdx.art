@@ -1,10 +1,9 @@
+// SPDX-License-Identifier: MIT
+
 pragma solidity 0.8.0;
 
 import "@openzeppelin/contracts/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/contracts/utils/Counters.sol";
-
-// only debug
-import "hardhat/console.sol";
 
 contract Artifact is ERC721 {
     // use counter.
@@ -64,6 +63,7 @@ contract Artifact is ERC721 {
     function withdraw() external onlyContractOwner returns(bool) {
         require(address(this).balance > 0, 'Not Enough Balance Of Contract');
         payable(contractOwner).transfer(address(this).balance);
+        return true;
     }
 
     // Only owner can update fee of printing.
