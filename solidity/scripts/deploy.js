@@ -2,7 +2,9 @@ const hre = require("hardhat");
 
 async function main() {
 
-    const fee = hre.ethers.BigNumber.from('10000000000000000');
+    const ethFee = '0.1'
+    const fee = hre.ethers.BigNumber.from(hre.ethers.utils.parseEther(ethFee));
+
     const Artifact = await hre.ethers.getContractFactory("Artifact");
     const art = await Artifact.deploy(fee);
     await art.deployed();
