@@ -10,6 +10,10 @@ module.exports = {
     rinkeby: {
       url: process.env.INFRA_URL,
       accounts: [`0x${process.env.PRIVATE_KEY}`]
+    },
+    main: {
+      url: process.env.PRD_INFRA_URL,
+      accounts: [`0x${process.env.PRIVATE_KEY}`]
     }
   }
 };
